@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Kayacalp</string>
+    <string name="facebook_app_id">292243288006043</string>
+    <string name="facebook_application_id" translatable="false">292243288006043</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb292243288006043</string>
+</resources>

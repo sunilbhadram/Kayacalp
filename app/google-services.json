@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "55160485386",
+    "firebase_url": "https://kayacalp-6f794.firebaseio.com",
+    "project_id": "kayacalp-6f794",
+    "storage_bucket": "kayacalp-6f794.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55160485386:android:695315144bf20db2",
+        "android_client_info": {
+          "package_name": "com.kayacalp.www.kayacalp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55160485386-qtr8cm94dqns5mprqist9tb3ov5vfa98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kayacalp.www.kayacalp",
+            "certificate_hash": "0f39b46adfdc2d014877010414503e8ea6f66e0c"
+          }
+        },
+        {
+          "client_id": "55160485386-4gdclq18ks6lcn9rd68goi4dp8b5famt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2my9cGKiz722lOYo5AkZHPLGWrAarIqo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55160485386-4gdclq18ks6lcn9rd68goi4dp8b5famt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
