@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
@@ -45,6 +46,9 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
+    }
+    public void signInWithEmail(View view) {
+        Toast.makeText(LoginActivity.this,"Email clickesssssssssssd",Toast.LENGTH_LONG).show();
     }
 
     @Override
