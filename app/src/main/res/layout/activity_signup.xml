@@ -4,15 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="204dp"
-        android:layout_height="40dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="25dp" />
+    tools:context=".SignupActivity">
 
     <EditText
         android:id="@+id/editText"
@@ -32,8 +24,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="77dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="85dp" />
 
     <Button
         android:id="@+id/button2"
