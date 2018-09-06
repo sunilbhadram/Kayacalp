@@ -7,34 +7,114 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="340dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="348dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:onClick="signInWithEmail"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/kayacalp_logo"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/continue_with_gmail1" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kayacalp_log" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="309dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="8dp"
+        android:id="@+id/fb_login"
+        android:foregroundGravity="center"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kayacalp_logo"
+        app:srcCompat="@drawable/facebook_login" />
+
+    <ImageView
+        android:id="@+id/gmail_login"
+        android:foregroundGravity="center"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fb_login"
+        app:layout_constraintTop_toBottomOf="@+id/kayacalp_logo"
+        app:srcCompat="@drawable/gmail_login" />
+
+    <ImageView
+        android:id="@+id/or_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:onClick="signInWithFacebook"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/connect_with_facebook" />
+        app:layout_constraintTop_toBottomOf="@+id/fb_login"
+        app:srcCompat="@drawable/or_line" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/or_line" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_email" />
+
+    <ImageView
+        android:id="@+id/signin_button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password"
+        app:srcCompat="@drawable/login_button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="8dp"
+        android:text="Don't have account ? SIGN UP now."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
