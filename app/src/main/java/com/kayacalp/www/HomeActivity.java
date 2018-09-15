@@ -1,15 +1,13 @@
-package com.kayacalp.www.kayacalp;
+package com.kayacalp.www;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SignupActivity extends AppCompatActivity {
-
-
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup);
+        setContentView(com.kayacalp.www.kayacalp.R.layout.activity_home);
     }
 }

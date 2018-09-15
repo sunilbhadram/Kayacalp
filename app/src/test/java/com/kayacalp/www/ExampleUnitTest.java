@@ -1,4 +1,4 @@
-package com.kayacalp.www.kayacalp;
+package com.kayacalp.www;
 
 import org.junit.Test;
 

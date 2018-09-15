@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Kayacalp</string>
-    <string name="facebook_app_id">292243288006043</string>
-    <string name="facebook_application_id" translatable="false">292243288006043</string>
-    <string name="facebook_login_protocol_scheme" translatable="false">fb292243288006043</string>
+    <string name="sign_in_with_phone">Signup with Phone</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="sign_out_failed">Sign out failed</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="unknown_sign_in_response">Unknown sign in response</string>
 </resources>

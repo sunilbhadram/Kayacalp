@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "55160485386",
-    "firebase_url": "https://kayacalp-6f794.firebaseio.com",
-    "project_id": "kayacalp-6f794",
-    "storage_bucket": "kayacalp-6f794.appspot.com"
+    "project_number": "6429731388",
+    "firebase_url": "https://kayacalp-5bbb2.firebaseio.com",
+    "project_id": "kayacalp-5bbb2",
+    "storage_bucket": "kayacalp-5bbb2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:55160485386:android:695315144bf20db2",
+        "mobilesdk_app_id": "1:6429731388:android:bcb01f432fbaf121",
         "android_client_info": {
-          "package_name": "com.kayacalp.www.kayacalp"
+          "package_name": "com.kayacalp.www"
         }
       },
       "oauth_client": [
         {
-          "client_id": "55160485386-qtr8cm94dqns5mprqist9tb3ov5vfa98.apps.googleusercontent.com",
+          "client_id": "6429731388-2v06vqgda9c5u10tcb7o660a9d8jaj8n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.kayacalp.www.kayacalp",
-            "certificate_hash": "0f39b46adfdc2d014877010414503e8ea6f66e0c"
+            "package_name": "com.kayacalp.www",
+            "certificate_hash": "24978d865687c5dbfe319c2b33b0bd80376d0ddf"
           }
         },
         {
-          "client_id": "55160485386-4gdclq18ks6lcn9rd68goi4dp8b5famt.apps.googleusercontent.com",
+          "client_id": "6429731388-ivj6okch87acp60majnf90i1o2k21rr3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB2my9cGKiz722lOYo5AkZHPLGWrAarIqo"
+          "current_key": "AIzaSyDHbR8wx05gLiJy5rqSRP_w74nSVLMEUQo"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "55160485386-4gdclq18ks6lcn9rd68goi4dp8b5famt.apps.googleusercontent.com",
+              "client_id": "6429731388-ivj6okch87acp60majnf90i1o2k21rr3.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
