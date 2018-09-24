@@ -5,10 +5,13 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
@@ -16,9 +19,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.kayacalp.www.kayacalp.R;
-
-import java.util.HashMap;
+import com.google.firebase.auth.UserProfileChangeRequest;
+import com.kayacalp.www.R;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -27,11 +29,22 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
         mRootView = findViewById(R.id.root);
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        setContentView(com.kayacalp.www.kayacalp.R.layout.activity_home);
+
+        if (user != null) {
+            Log.d("DEV_TAGS",user.getPhoneNumber());
+            EditText phoneNumber = (EditText) findViewById(R.id.mobileNumber);
+            phoneNumber.setText(user.getPhoneNumber());
+            phoneNumber.setKeyListener(null);
+
+            Spinner dropdown = (Spinner) findViewById(R.id.stateName);
+            String[] items = new String[]{"Andhra Pradesh", "Karnataka", "Orissa","Uttar Pradesh","West Bengal"};
+            ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
+            dropdown.setAdapter(adapter);
+        } else {
+            goLogInScreen();
+        }
     }
 
 

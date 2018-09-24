@@ -5,8 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
-
-import com.kayacalp.www.LoginActivity;
+import com.kayacalp.www.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(com.kayacalp.www.kayacalp.R.layout.activity_main);
+        setContentView(com.kayacalp.www.R.layout.activity_main);
         getSupportActionBar().hide();
 
         LogLauncher logoLauncher = new LogLauncher();
@@ -33,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        Intent loginIntent = new Intent(MainActivity.this,LoginActivity.class);
-        startActivity(loginIntent);
+        Intent homeIntent = new Intent(MainActivity.this,HomeActivity.class);
+        startActivity(homeIntent);
         MainActivity.this.finish();
 
         }

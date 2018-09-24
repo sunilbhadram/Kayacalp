@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.kayacalp.www.kayacalp.com.kayacalp.www.LoginActivity">
+    tools:context="com.kayacalp.www.LoginActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,20 +23,6 @@
         android:layout_gravity="center"
         android:adjustViewBounds="false"
         app:srcCompat="@drawable/kayacalp_log" />
-
-    <EditText
-        android:id="@+id/loginname"
-        style="@style/FirebaseUI.TextInputEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="100dp"
-        android:textSize="30dp"
-        android:maxLength="20"
-        android:singleLine="true"
-        android:imeOptions="actionDone"
-        android:inputType="textCapWords"
-        android:hint="Enter Your Name"/>
 
     <Button
         style="@style/Widget.AppCompat.Button.Colored"
